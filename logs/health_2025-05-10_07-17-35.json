@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.google.com",
+    "timestamp": "2025-05-10T07:17:32.941926+00:00",
+    "status_code": 200,
+    "latency": 0.529,
+    "success": true
+  },
+  {
+    "url": "https://www.github.com",
+    "timestamp": "2025-05-10T07:17:33.471396+00:00",
+    "status_code": 200,
+    "latency": 0.053,
+    "success": true
+  },
+  {
+    "url": "https://httpstat.us/404",
+    "timestamp": "2025-05-10T07:17:33.524371+00:00",
+    "status_code": 404,
+    "latency": 0.944,
+    "success": false
+  },
+  {
+    "url": "https://httpstat.us/500",
+    "timestamp": "2025-05-10T07:17:34.468746+00:00",
+    "status_code": 500,
+    "latency": 0.943,
+    "success": false
+  }
+]
