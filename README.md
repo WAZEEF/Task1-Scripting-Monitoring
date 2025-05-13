@@ -59,8 +59,3 @@
  pip install -r requirements.txt
  ```
  ##  Sample Output Logs- `logs/report_YYYY-MM-DD.log`- `output/health_log.json`
- ##  Interview Explanation
- > "This project covers system monitoring through Bash and Python scripting. I also
- converted it into a Prometheus exporter and containerized it using Docker, demonstrating
- practical DevOps skills in observability, automation, and cross-platform deployment.
-
