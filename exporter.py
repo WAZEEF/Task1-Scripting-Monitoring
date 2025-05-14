@@ -31,4 +31,4 @@ if __name__ == "__main__":
 
     while True:
         check_urls()
-        time.sleep(30)  # scrape interval
+        time.sleep(30)
