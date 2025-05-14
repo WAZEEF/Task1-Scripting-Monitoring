@@ -3,11 +3,9 @@ import requests
 from prometheus_client import start_http_server, Gauge
 from datetime import datetime, timezone
 
-# Define Prometheus metrics
 LATENCY_GAUGE = Gauge('url_latency_seconds', 'Latency of URL in seconds', ['url'])
 UP_GAUGE = Gauge('url_up', 'URL availability (1 = up, 0 = down)', ['url'])
 
-# Load URLs from urls.txt
 def load_urls():
     with open("urls.txt") as f:
         return [line.strip() for line in f if line.strip()]
@@ -34,4 +32,3 @@ if __name__ == "__main__":
     while True:
         check_urls()
         time.sleep(30)  # scrape interval
-
